@@ -1,0 +1,789 @@
+@media screen and (max-width: 1199.99px) {
+
+    section {
+        padding: 4rem 0;
+        p {
+            line-height: 1.7;
+        }
+        h2 {
+            font-size: 2.7rem;
+            margin-bottom: 2.3rem;
+        }
+    }  
+    .button {font-size: 1rem}
+
+    header {
+        div.overlay {
+            padding-top: 7.5rem;
+        }
+        .logo {
+            background: url(../images/images/logo-lg.png) no-repeat;
+            background-position: -0.2rem -1.5rem;
+        }
+        nav.fullnavigation nav {
+            padding-top: 2.3rem;
+            text-align: right;
+            ul {
+                width: 90%;
+                margin-left: auto;
+                li {
+                    width: 10.6%;
+                    text-align: center
+                }
+            } 
+        }
+    }
+
+    section.about {
+        hr {
+            margin: 0 0 2rem;
+        }
+        div.agency {
+            padding: 0 10rem 0;
+        }
+    }
+
+    section.features {
+        h2 {
+            margin-bottom: 4.2rem;
+        }
+        div.left_sided > div {
+            background-position: 34rem -0.4rem;
+        }
+        div.right_sided > div:first-of-type {
+            margin-bottom: 4.6rem;
+        }
+        div.boost {
+            padding: 1rem 4.5rem;
+        }
+    }
+
+    section.projects div.project {
+        &:first-of-type {
+            padding: 21.3rem 0 0 5.9rem;
+            > div {
+                padding-right: 3rem;
+                p {color: #e8e2e2}
+            }
+        }
+        &:last-of-type {
+            padding-right: 0;
+            span.st {
+                top: 1.5rem;
+                left: 3rem;
+            }
+        }
+    }
+
+    section.testim div.say p {
+        width: 65%;
+        min-height: 12.3rem;
+    }
+    
+    section.contact div.contact_methods > div {
+        padding: 2rem 0 2rem 10rem;
+        background-position: 1.5rem 1rem;
+    }
+
+    footer div.row div.logo a { width: 54% }
+}
+
+@media screen and (max-width: 991.99px) {
+
+    section {
+        padding: 3rem 0;
+        p {
+            line-height: 1.5;
+        }
+        h2 {
+            font-size: 2.4rem;
+            margin-bottom: 2rem;
+        }
+    }
+    .button {
+        font-size: 1rem
+    }
+    button.scrolltotop {
+        right: 2rem;
+        bottom: 2rem;
+        padding: 0.4rem 1rem .6rem;
+    }
+
+    header {
+        div.overlay {
+            padding-top: 11.5rem;
+        }
+        .logo {
+            background: url(../images/images/logo.png) no-repeat;
+            background-position: 30.8rem -1.5rem;
+            a {
+                left: 43.5%;
+                height: 98%;
+                width: 24.2%;
+            }
+        }
+        nav.fullnavigation nav {
+            padding: 2rem 0 1.2rem;
+            text-align: center;
+            border-bottom: 0.05rem solid rgb(7, 45, 80);
+            ul {
+                width: 100%;
+                li {
+                    width: 10.6%;
+                    text-align: center
+                }
+            }
+            
+        }
+        div.container.body {
+            div.row.industries {
+                justify-content: space-evenly;
+                div.industry {
+                    padding: 4rem 0;
+                    font-size: 0;
+                    margin-right: 0;
+                    i.fas { font-size: 2.2rem }
+                    h4 {font-size: 1.5rem}
+                }
+            }
+            div.godown { padding: 5rem 0 0 }
+        }
+    }
+
+    section.about {
+        p {
+            padding: 0 12rem;
+        }
+        div.agency {
+            padding: 0 4rem 0;
+        }
+        button {
+            margin-bottom: 2rem;
+        }
+    }
+
+    section.features {
+        h2 {
+            margin-bottom: 3.5rem;
+        }
+        div.left_sided > div {
+            background-position: 24rem -0.4rem;
+            p {
+                text-indent: 2rem
+            }
+        }
+        h4 {
+            font-size: 1.4rem;
+            margin-bottom: 1.1rem;
+        }
+        div.boost {
+            padding: 1rem 3.5rem;
+            p {
+                font-size: 1.2rem;
+                padding-top: .7rem;
+            }
+        }
+    }
+
+    section.projects div.project {
+        &:first-of-type > div h4,
+        &:last-of-type > div h4 { font-size: 1.2rem }
+        &:first-of-type {
+            padding: 21.3rem 0 0 0;
+            background-position: -0.2rem 0rem;
+        }
+        &:last-of-type span {
+            &.st {
+                top: 1rem;
+                left: 2rem;
+                border: 0.1rem solid #ff650e;
+                font-size: 1rem;
+            }
+        }
+    }
+    
+    section.services div.service {
+        padding: 2rem 1rem;
+        i.fas { font-size: 3.3rem }
+        h4 { font-size: 1.3rem }
+    }
+
+    section.testim {
+        background-position-x: 11rem;
+        div.images {
+            height: 4rem;
+            width: 34rem;
+            margin: 0 auto 1rem;
+            img .active_image {
+                transform: scale(1.1);
+                filter: none
+            }
+        }
+        div.say {
+            p {
+                width: 68%;
+                min-height: 12.9rem;
+            }
+        }
+    }
+
+    section.blog {
+        div.left_sided,
+        div.right_sided {
+            padding: 2rem 2.5rem;
+            span {
+                font-size: 0.9rem;
+            }
+            h4 {
+                font-size: 1.2rem;
+                margin: 0.5rem 0;
+            }
+        }
+        div.left_sided {
+            padding-left: 19rem;
+        }
+    }
+
+    section.contact div.contact_methods > div {
+        padding: 1.5rem 0 1.5rem 7.3rem;
+        background-position: 0 0.6rem;
+        h5 {
+            font-size: 1.3rem;
+        }
+        span {
+            font-size: 1.1rem;
+            margin-top: 0.1rem;
+        }
+    }
+
+    footer {
+        div.row {
+            > div {
+                margin-bottom: 2rem
+            }
+            div.logo {
+                a {
+                    width: 73%;
+                }
+            }
+            h3 {
+                margin-bottom: 1.5rem;
+                font-size: 1.3rem;
+            }
+            ul {
+                line-height: 1.7;
+            }
+        }
+        div.newsletter {
+            padding-left: 3rem;
+            > div {
+                button {
+                    left: 59%;
+                }
+            }
+        }
+        ::-webkit-input-placeholder { font-size: 1rem }
+        ::-moz-input-placeholder { font-size: 1rem }
+        :-moz-input-placeholder { font-size: 1rem }
+        ::-ms-input-placeholder { font-size: 1rem }
+        ::-o-input-placeholder { font-size: 1rem }
+    }
+}
+
+@media screen and (max-width: 767.99px) {
+
+    section h2 { font-size: 2.1rem }
+    .button { font-size: 0.9rem }
+    button.scrolltotop { font-size: 2rem }
+
+    header {
+        div.overlay {
+            padding-top: 8.3rem;
+        }
+        .logo {
+            background: url(../images/images/logo.png) no-repeat;
+            background-position: 18.8rem -1.5rem;
+            a {
+                left: 35.5%;
+                height: 98%;
+                width: 32.2%;
+            }
+        }
+        nav.fullnavigation {
+            padding: 1rem 0;
+
+            nav {
+                font-size: 1.1rem;
+                ul li {
+                    width: 11.8%;
+                    span {
+                        padding: 0.6rem 0.2rem;
+                    }
+                }
+            }
+        }
+        div.container.body {
+            @include trans(padding-top, 0.2, linear);
+            p {
+                margin: 7rem 0 1rem;
+                font-size: 1.1rem;
+            }
+            h1 {
+                font-size: 2.5rem;
+                margin-bottom: 0;
+            }
+            div.row.industries {
+                div.industry {
+                    margin-right: 0;
+                    flex: 0 0 35%;
+                    margin-bottom: 1.4rem;
+                    i.fas { font-size: 2.6rem }
+                    h4 { margin-top: 0.8rem }
+                    &:nth-of-type(3),
+                    &:last-of-type { margin-bottom: 0 }
+                }
+            }
+            div.godown { padding: 2.5rem 0 0 }
+        }
+    }
+
+    section.about {
+        p {
+            padding: 0 6rem;
+            margin: 0 0 2rem;
+        }
+        div.agency {
+            padding: 0 2rem 0;
+            font-size: 1.2rem;
+        }
+    }
+
+    section.features {
+        h2 { margin-bottom: 3rem }
+        div.left_sided > div,
+        div.right_sided > div { margin-bottom: 2rem }
+        div.left_sided > div {
+            padding-right: 0;
+            padding-top: 4rem;
+            text-align: center;
+            background-position: center -0.4rem;
+            p { text-indent: 0 }
+        }
+        div.right_sided > div {
+            padding-left: 0;
+            padding-top: 4rem;
+            text-align: center;
+            background-position: center -0.4rem;
+            &:first-of-type { margin-bottom: 3.3rem }
+        }
+        h4 {
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+        div.boost {
+            padding: 0.5rem 1.5rem;
+            p {
+                font-size: 1.1rem;
+                padding-top: .9rem;
+            }
+        }
+    }
+
+    section.projects div.project {
+        &:first-of-type > div,
+        &:last-of-type > div { padding: 1rem; }
+        &:first-of-type {
+            padding: 21.3rem 2.5rem 0;
+            background: url(../images/images/projects/projectsimage1-sm.png) no-repeat;
+            background-position: 2.5rem 0rem;
+            > div { padding-bottom: 4rem }
+        }
+        &:last-of-type span {
+            &.st {
+                padding: 0.5rem 1rem;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    section.services div.service {
+        padding: 1rem 6rem;
+        i.fas {
+            font-size: 4rem;
+        }
+        h4 {
+            font-size: 1.5rem;
+        }
+    }
+
+    section.testim {
+        background-position-x: 10rem;
+        div.say p {
+            width: 87%;
+            min-height: 13rem;
+
+            span {
+                font-size: 1.6rem;
+            }
+        }
+    
+    }
+
+    section.blog {
+        div.left_sided,
+        div.right_sided {
+            padding: 4rem 5.5rem;
+            span {
+                font-size: 1.2rem;
+            }
+            h4 {
+                font-size: 1.6rem;
+                margin: 1rem 0;
+            }
+        }
+        div.left_sided {
+            padding-left: 20rem;
+            padding-bottom: 7rem;
+        }
+    }
+
+    section.contact div.contact_methods > div {
+        padding: 2rem 0 2rem 6rem;
+        background-position: 0 1rem;
+        h5 {
+            font-size: 1.2rem;
+        }
+        span {
+            font-size: 1rem;
+            display: inline-block;
+            margin-top: 0.1rem;
+        }
+    }
+
+    footer {
+        padding: 3rem 0 1rem;
+        div.row {
+            > div {
+                margin-bottom: 3rem;
+                border-bottom: 0.1rem solid #656565;
+                padding-bottom: 1.5rem;
+                &:nth-of-type(3),
+                &:last-of-type { border: 0 }
+                &:nth-of-type(2),
+                &:nth-of-type(3) {padding-left: 6rem }
+            }
+            div.logo a {
+                height: 26%;
+                width: 64%;
+            }
+            h3 {
+                margin-bottom: 2rem;
+                font-size: 1.5rem;
+            }
+            ul {
+                line-height: 1.9;
+            }
+        }
+        div.newsletter {
+            padding-left: 1.5rem;
+            > div {
+                input {
+                    padding: .75rem 2rem;
+                    font-size: 1.2rem
+                }
+                button { left: 65% }
+            }
+        }
+        hr + div {
+            p {
+                padding: 0.4rem 0 0;
+                font-size: 0.9rem;
+            }
+            > ul {
+                width: 37%;
+                li {
+                    font-size: 1.2rem;
+                    margin-right: 2%;
+                    border: 0.1rem solid #FFF;
+                    padding: 0.2rem .4rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575.99px) {
+
+    section h2 { font-size: 2.1rem }
+    .button { font-size: 0.8rem }
+    button.scrolltotop {
+        padding: 0.3rem 0.7rem 0.5rem;
+        font-size: 1.6rem;
+    }
+
+    header {
+        div.overlay {
+            padding-top: 0;
+        }
+        .logo {
+            background: url(../images/images/logo-lg.png) no-repeat;
+            background-position: 59% -2rem;
+            padding: 2.8rem 0.5rem;
+            a {
+                left: 35.9%;
+                height: 100%;
+                width: 31.8%;
+                top: -2%;
+            }
+        }
+        nav.fullnavigation nav {
+            padding: 1rem 0;
+            position: relative;
+            border-bottom: 0;
+            div.nav_button_container {
+                display: block;
+                margin: 0 auto;
+                cursor: pointer;
+                width: 6.6%;
+                height: 2rem;
+                background: url(../images/images/navbutton.png) no-repeat;
+                background-position: -2rem -9px;
+                @include trans(all, 0.2, linear);
+                &.expanded {
+                    background: url(../images/images/closenavbutton.png) no-repeat;
+                    background-position: -2.9rem -2.7rem;
+                    padding: 1rem;
+                    top: 0;
+                    bottom: unset;
+                }
+            }
+            ul {
+                height: 0;
+                overflow: hidden;
+                @include trans(all, 0.2, linear);
+                &.opened {
+                    height: auto;
+                    padding: 2rem 0 0;
+                    line-height: 2.2;
+                    font-size: 1.3rem;
+                    @include trans(all, 0.2, linear);
+                    li {
+                        width: 100%;
+                        border-bottom: 0.1rem solid rgb(7, 45, 80);
+                        padding-bottom: 0.5rem;
+                        span {
+                            padding: 0.6rem 0.2rem;
+                        }
+                    }
+                }
+            }
+        }
+        div.container.body {
+            p {
+                margin: 2rem 0 1rem;
+                font-size: 1rem;
+            }
+            h1 {
+                font-size: 2.2rem;
+                margin-bottom: 3rem;
+            }
+            div.row.industries {
+                padding-left: 12rem;
+                padding-right: 12rem;
+                div.industry {
+                    flex: 0 0 40%;
+                    padding: 2rem 0;
+                    i.fas {
+                        font-size: 2.4rem;
+                    }
+                    h4 {
+                        margin-top: 0.8rem;
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    section.about {
+        p {
+            font-size: 1rem;
+            padding: 0 3rem;
+            margin: 0 0 1.5rem;
+        }
+        button {
+            margin-bottom: 1.5rem;
+        }
+        hr {
+            margin: 0 0 1.5rem;
+        }
+        div.agency {
+            padding: 0 3rem 0;
+            font-size: 1rem;
+        }
+    }
+
+    section.features {
+        div.left_sided > div p,
+        div.right_sided > div  p { padding: 0 5rem }
+        div.left_sided > div {
+            text-align: center;
+            background-position: center -0.4rem;
+        }
+        div.right_sided > div {
+            padding-left: 0;
+            padding-top: 4rem;
+            text-align: center;
+            background-position: center -0.4rem;
+            &:first-of-type {
+                margin-bottom: 2rem;
+            }
+        }
+        div.boost {
+            padding: 0.5rem 1rem;
+            margin-top: 2rem;
+            p {
+                font-size: 1rem;
+                padding-top: .9rem;
+            }
+        }
+    }
+
+    section.projects {
+        div.project {
+            margin-bottom: 2rem;
+            &:first-of-type,
+            &:last-of-type {
+                max-width: 43.5rem;
+                margin-right:  auto;
+                margin-left:  auto;
+            }
+            &:first-of-type {
+                padding: 21.3rem 1.5rem 0;
+                background: url(../images/images/projects/projectsimage1-xs.png) no-repeat;
+                background-position: 1.5rem 0rem;
+            }
+            &:last-of-type {
+                padding-top: 21.3rem;
+                padding-right: 1.5rem;
+                background-image: url(../images/images/projects/projectsimage2-xs.jpg);
+                background-repeat: no-repeat;
+                background-position: 1.5rem 0rem;
+                > div {
+                    border: 0.05rem solid rgba(0,0,0,0.2);
+                    border-top: none;
+                }
+            }
+        }
+        button { margin-top: 2rem }
+    }
+
+    section.services div.service {
+        i.fas { font-size: 3rem }
+        h4 { font-size: 1.2rem }
+        p { font-size: 0.9rem }
+    }
+
+    section.testim {
+        background-position-x: 7rem;
+        div.images {
+            height: 3rem;
+            width: 27rem;
+            margin: 0 auto;
+        }
+        div.say p {
+            width: 91%;
+            min-height: 12.9rem;
+            span {
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    section.blog {
+        div.left_sided,
+        div.right_sided {
+            padding: 2rem 2rem;
+            max-width: 82%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        div.left_sided { padding-left: 18rem }
+        div.right_sided {
+            border-top-color: $altcolor;
+            padding-left: 3rem;
+        }
+    }
+
+    section.contact div.contact_methods {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        > div {
+            padding: 2rem 0 2rem 11rem;
+            background-position: 2rem 1.1rem;
+            max-width: 70%;
+            margin: 0 auto;
+            &:nth-of-type(2) {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+            h5 {
+                font-size: 1.5rem;
+            }
+            span {
+                font-size: 1.2rem;
+                margin-top: 0.3rem;
+            }
+        }
+    }
+
+    footer {
+        div.row {
+            div.logo {
+                background: url(../images/images/logo.png) no-repeat;
+                background-position: 2rem 5rem;
+                position: relative;
+                a {
+                    height: 27%;
+                    width: 72%;
+                }
+            }
+            h3 {
+                margin-bottom: 1rem;
+                font-size: 1.3rem;
+            }
+            ul { font-size: 1rem }
+        }
+        div.newsletter > div {
+            input {
+                padding: .8rem 2rem;
+                font-size: 1.1rem;
+            }
+            button { left: 59% }
+        }
+        hr + div {
+            p {
+                padding: 0.6rem 0 0;
+                font-size: 0.8rem;
+            }
+            > ul {
+                width: 34%;
+                li {
+                    margin-right: 1%;
+                    padding: 0.1rem .3rem;
+                }
+            } 
+        }
+        ::-webkit-input-placeholder { font-size: 0.8rem }
+        ::-moz-input-placeholder { font-size: 0.8rem }
+        :-moz-input-placeholder { font-size: 0.8rem }
+        ::-ms-input-placeholder { font-size: 0.8rem }
+        ::-o-input-placeholder { font-size: 0.8rem }
+    }
+}
+
+
+// 1198 line  ====//===  801 lines

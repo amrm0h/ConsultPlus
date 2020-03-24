@@ -1,0 +1,7 @@
+
+
+// mixin for transition 
+
+@mixin trans ($prop: all,$time: 0.2,$easing: linear) {
+    transition: $prop $time+s $easing;
+}

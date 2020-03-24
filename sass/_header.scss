@@ -1,0 +1,190 @@
+header {
+    background: url(../images/images/headerbackground.jpg);
+    background-size: cover;
+
+    div.overlay {
+        width: 100%;
+        background-color: rgba(0,0,0,.6);
+        color: white;
+        @include trans(all,0.5,linear);
+        overflow: hidden;
+        padding-top: 9.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .logo {
+        background: url(../images/images/logo.png) no-repeat;
+        background-position: 1rem -1.9rem;
+        padding: 3rem 0.5rem;
+        position: relative;
+        a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    nav.fullnavigation {
+        padding: 2rem 0;
+        @include trans(all, 0.2, linear);
+        
+        nav{
+            padding-top: 1.6rem;
+            font-size: 1.2rem;
+            text-transform: capitalize;
+            div.nav_button_container {
+                display: none;
+            }
+            ul li {
+                color: #ccc4c4;
+                width: 9.6%;
+                span {
+                    cursor: pointer;
+                    padding: 0.8rem 0.6rem;
+                    border-radius: .6rem;
+                    @include trans(all, 0.2, linear);
+                    &:hover {
+                        color: $altcolor
+                    }
+                }
+    
+    
+                &.active {
+                    color: $altcolor;
+    
+                    span {
+                        background-color: black
+                    }
+                }
+            }
+        }
+
+
+    }
+
+
+    
+        
+
+    div.calling {
+        padding-top: 1.6rem;
+        font-size: 1.2rem;
+
+        i {
+            color: $maincolor;
+            &:first-of-type {
+                margin-right: 0.6rem
+            }
+            &:last-of-type {
+                margin-left: 0.6rem
+            }
+        }
+    }
+
+    div.container.body {
+        @include trans(padding-top, 0.2, linear);
+        p {
+            margin: 9rem 0 1rem;
+            font-size: 1.5rem;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+    
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            text-shadow: 0 0.3rem 0.9rem rgba(0,0,0,.5);
+            margin-bottom: 2.5rem
+        }
+    
+        div.row.industries {
+            position: relative;
+            padding-top: 3rem;
+    
+    
+            ul {
+                width: 80%;
+                height: .6rem;
+                background-color: $maincolor;
+                border-radius: 1rem;
+                top: 0;
+                left: 10%;
+                position: absolute;
+                text-align: left;
+                padding-left: 15rem;
+                li {
+                    border-width: 21px;
+                    border-color: #05b5e7 transparent transparent;
+                    border-style: solid;
+                    margin-right: 20.5%;
+                    &:last-of-type {
+                        margin-right: 0
+                    }
+                }
+            }
+    
+    
+            div.industry {
+                padding: 5rem 0;
+                margin-right: 1%;
+                background-color: #05b5e7;
+                border-radius: 1rem;
+                font-size: 5rem;
+                cursor: pointer;
+                box-shadow: 0 1rem 1.2rem 0.1rem rgba(0,0,0,0.3);
+                @include trans(all, 0.2, linear);
+        
+                h4 {
+                    font-size: 2rem;
+                    text-transform: uppercase;
+                    letter-spacing: 0.1rem;
+                    margin-top: 0.5rem;
+                }
+        
+                &:hover {
+                    background-color: $altcolor;
+                    transform: translateY(-0.5rem) scale(1.05);
+                }
+        
+                &:last-of-type {
+                    margin-right: 0
+                }
+            }
+    
+        }
+    
+    
+
+
+
+    
+        div.godown {
+            padding: 2.5rem 0 0;
+            button {
+                background: transparent;
+                border: .2rem solid #ccc4c4;
+                color: #ccc4c4;
+                border-radius: 50%;
+                padding: .5rem 1rem .2rem;
+                font-size: 1.9rem;
+                animation: movingGoDownButton infinite 0.8s both ease-in-out;
+            }
+        }
+
+        @keyframes movingGoDownButton {
+            0%, 100% {
+                transform: translateY(0)
+            }
+            50% {
+                transform: translateY(.5rem)
+            }
+        }
+
+    }
+    
+}

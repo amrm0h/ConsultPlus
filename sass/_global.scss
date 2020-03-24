@@ -1,0 +1,84 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Tahoma, Arial, Serif;
+    color: $darkgray;
+}
+
+p {
+    margin: 0;
+}
+
+input,input:focus,input:active,
+button,button:visited,button:focus,button:active {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        display: inline-block
+    }
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0
+}
+
+section {
+    padding: 5rem 0;
+    p {
+        color: #aba8a8;
+        line-height: 1.9;
+        font-weight: bold;
+        letter-spacing: 0.05rem
+    }
+    h2 {
+        font-size: 3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 0.2rem 0.2rem 0.3rem rgba(0,0,0,0.5);
+        margin-bottom: 2.5rem;
+    }
+}
+
+
+// classes
+
+.button {
+    padding: 1rem 2rem;
+    background-color: $btncolor;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.txt-center {
+    text-align: center
+}
+
+
+// scroll to top button
+
+button.scrolltotop {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    padding: 0.6rem 1.2rem 1rem;
+    border: 0.2rem solid darken($color: #05b5e7, $amount: 10%);
+    background: #05b5e7;
+    border-radius: 50%;
+    font-size: 2.3rem;
+    cursor: pointer;
+    color: white;
+    display: none;
+    z-index: 9999;
+}

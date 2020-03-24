@@ -1,0 +1,190 @@
+footer {
+    padding: 5rem 0 1rem;
+    background-color: #28282a;
+    color: white;
+
+    div.row {
+
+        > div {
+            margin-bottom: 4rem
+        }
+
+        div.logo {
+            background: url(../images/images/logo.png) no-repeat;
+            background-position: 2rem 5rem;
+            position: relative;
+            a {
+                position: absolute;
+                top: 7rem;
+                left: 2.5rem;
+                height: 28%;
+                width: 46%;
+            }
+        }
+
+        h3 {
+            color: #d6d2d2;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+        }
+
+        ul {
+            color: #8c8787;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            line-height: 1.9;
+
+            li {
+                display: block;
+
+                span {
+                    cursor: pointer;
+                    @include trans(color, 0.2, linear);
+                    &:hover {
+                        color: #d6d2d2;
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    div.newsletter {
+
+        p {
+            margin-bottom: 3rem
+        }
+
+        > div {
+            position: relative;
+
+            input {
+                padding: .8rem 2rem;
+                border-top-left-radius: 3rem;
+                border-bottom-left-radius: 3rem;
+                border: none;
+                background-color: #424246;
+                width: 95%;
+                font-size: 1.3rem;
+                color: white
+            }
+
+            button {
+                position: absolute;
+                left: 69%;
+            }
+
+        }
+
+        
+    }
+
+    p {
+        color: #aba8a8;
+        line-height: 1.9;
+        font-weight: bold;
+        letter-spacing: 0.05rem;
+
+    }
+
+
+    hr {
+        border: 0.09rem ridge #424246;
+    }
+
+    hr + div {
+
+        p {
+            padding: 1rem 0 0;
+            span {
+                color: #ff18cf;
+
+                &:first-of-type i {
+
+                    animation: pulse linear 0.4s  infinite both;
+                                
+                }
+            }
+        }
+
+        > ul {
+            text-align: right;
+            width: 50%;
+    
+            li {
+                font-size: 1.8rem;
+                margin-right: 4%;
+                border: 0.2rem solid #FFF;
+                border-radius: 50%;
+                padding: 0.6rem 1rem;
+                background: #FFF;
+                cursor: pointer;
+    
+                i {
+                    &.fb {
+                        color: #4a4afd;
+                    }
+                    &.tw {
+                        color: #048eff;
+                    }
+                    &.in {
+                        color: #ff2bfa;
+                    }
+                    &.li {
+                        color: #4444ec;
+                    }
+                    &.go {
+                        color: #f14244;
+                    }
+                }
+        
+            }
+        }
+
+    }
+
+
+    @keyframes pulse {
+        0%, 100% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.1)
+        }
+    }
+
+
+    ::-webkit-input-placeholder {
+        color: rgb(148, 143, 143);
+        text-transform: uppercase;
+        font-size: 1.1rem;
+    }
+
+    ::-moz-input-placeholder {
+        color: rgb(148, 143, 143);
+        text-transform: uppercase;
+        font-size: 1.1rem;
+    }
+
+    :-moz-input-placeholder {
+        color: rgb(148, 143, 143);
+        text-transform: uppercase;
+        font-size: 1.1rem;
+    }
+
+    ::-ms-input-placeholder {
+        color: rgb(148, 143, 143);
+        text-transform: uppercase;
+        font-size: 1.1rem;
+    }
+
+    ::-o-input-placeholder {
+        color: rgb(148, 143, 143);
+        text-transform: uppercase;
+        font-size: 1.1rem;
+    }
+}

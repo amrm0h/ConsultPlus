@@ -1,0 +1,23 @@
+section.about {
+
+    p {
+        font-size: 1.1rem;
+        padding: 0 19rem;
+        margin: 0 0 2.5rem;
+    }
+    button {
+        margin-bottom: 4rem;
+    }
+
+    hr {
+        margin: 0 0 2.5rem;
+        border: .05rem solid rgba(183, 177, 177, 0.2);
+    }
+
+    div.agency {
+        padding: 1rem 17rem 0;
+        font-size: 1.3rem;
+        font-style: oblique;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,43 @@
+section.contact {
+
+    div.contact_methods {
+        > div {
+            border: 0.15rem solid rgba(0, 0, 0, 0.1);
+            padding: 3rem 0 3rem 11rem;
+            background-repeat: no-repeat;
+            background-position: 2rem 2.1rem;
+            text-align: left;
+            border-radius: 0.5rem;
+            @include trans(border-color, 0.3, ease-in-out);
+
+            &:hover {
+                border-color: rgba(0,0,0,.4);
+            }
+
+
+            &:first-of-type {
+                background-image: url(../images/images/contact/email.png);
+            }
+            &:nth-of-type(2) {
+                background-image: url(../images/images/contact/call.png);
+                margin: 0 1rem;
+            }
+            &:last-of-type {
+                background-image: url(../images/images/contact/carrer.png);
+            }
+
+            h5 {
+                font-size: 1.4rem;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-style: italic;
+            }
+
+            span {
+                font-size: 1.2rem;
+                display: inline-block;
+                margin-top: 0.2rem;
+            }
+        }
+    }
+}

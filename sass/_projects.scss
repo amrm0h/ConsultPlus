@@ -1,0 +1,68 @@
+section.projects {
+
+    div.project {
+        position: relative;
+
+        &:first-of-type ,
+        &:last-of-type {
+            > div {
+                text-align: left;
+                padding: 2rem;
+                h4 {
+                    text-transform: uppercase;
+                    margin-bottom: .6rem;
+                    font-weight: bold;
+                    font-size: 1.4rem;
+                }
+            }
+        }
+        
+
+        &:first-of-type {
+            padding: 21.3rem 5.9rem 0;
+            background: url("./images/images/projects/projectsimage2.jpg") no-repeat;
+            background-position: 5.8rem 0rem;
+            > div {
+                background-color: $altcolor;
+                color: white;
+
+                
+                p {
+                    color: #e8e2e2;
+                }
+            }
+        }
+
+        &:last-of-type {
+            padding-top: 21.3rem;
+            background-repeat: no-repeat;
+            background-position: 1.5rem 0rem;
+            @include trans(background-image, 0.2, ease-in-out);
+
+            > div {
+                border: 0.05rem solid rgba(0,0,0,0.2);
+                border-top: none;
+            }
+
+
+            span {
+                &.st {
+                    top: 2rem;
+                    left: 4rem;
+                    border: 0.2rem solid #ff650e;
+                    padding: 0.5rem 1.3rem;
+                    border-radius: 1.5rem;
+                    font-size: 1.1rem;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: white;
+                    position: absolute;
+                }
+            }
+        }
+    }
+
+    button {
+        margin-top: 3rem
+    }
+}
